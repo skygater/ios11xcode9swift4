@@ -11,12 +11,12 @@ import UIKit
 class ViewController: UIViewController {
     
     var counter = 0
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     @IBOutlet weak var lableCount: UILabel!
     
     @IBOutlet var collectionButton: [UIButton]!
@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         }else{
             button.backgroundColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
             button.setTitle("", for:UIControl.State.normal)
-         }
+        }
     }
     
     
