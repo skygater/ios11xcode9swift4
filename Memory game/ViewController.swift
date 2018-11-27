@@ -19,14 +19,21 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var lableCount: UILabel!
     
-   
+    @IBOutlet var collectionButton: [UIButton]!
     
+    var emojiz = ["👻","🎃","👻","🎃"]
     @IBAction func onCLick(_ sender: UIButton) {
-        print("The button is clicked")
+        //print("The button is clicked")
         counter+=1
         lableCount.text = "Fliped count: \(self.counter)"
-        changeSides(withEmoji: "👻", on: sender)
+        if let indexEmo = collectionButton.index(of: sender){
+            changeSides(withEmoji: emojiz[indexEmo], on: sender)
+        }else{
+            print("Error");
+        }
+        
     }
+    
     func changeSides(withEmoji emoji:String, on button:UIButton) {
         if (button.currentTitle == ""){
             button.setTitle(emoji, for:UIControl.State.normal)
