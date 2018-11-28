@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98428B6121AF25F500265563 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98428B6021AF25F500265563 /* Memory.swift */; };
+		98428B6321AF264E00265563 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98428B6221AF264E00265563 /* Card.swift */; };
 		98DCD90021AD71A700448015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DCD8FF21AD71A700448015 /* AppDelegate.swift */; };
 		98DCD90221AD71A700448015 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DCD90121AD71A700448015 /* ViewController.swift */; };
 		98DCD90521AD71A700448015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98DCD90321AD71A700448015 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98428B6021AF25F500265563 /* Memory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
+		98428B6221AF264E00265563 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		98DCD8FC21AD71A700448015 /* Memory game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memory game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98DCD8FF21AD71A700448015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98DCD90121AD71A700448015 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				98DCD90621AD71A800448015 /* Assets.xcassets */,
 				98DCD90821AD71A800448015 /* LaunchScreen.storyboard */,
 				98DCD90B21AD71A800448015 /* Info.plist */,
+				98428B6021AF25F500265563 /* Memory.swift */,
+				98428B6221AF264E00265563 /* Card.swift */,
 			);
 			path = "Memory game";
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98428B6121AF25F500265563 /* Memory.swift in Sources */,
 				98DCD90221AD71A700448015 /* ViewController.swift in Sources */,
 				98DCD90021AD71A700448015 /* AppDelegate.swift in Sources */,
+				98428B6321AF264E00265563 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
