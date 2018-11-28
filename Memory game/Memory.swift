@@ -50,6 +50,7 @@ class Memory {
             let card = Card()
             cards += [card,card]
         }
+        cards.shuffle()
     }
     
     

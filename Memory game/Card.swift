@@ -24,8 +24,6 @@ struct Card {
     init(){
         self.identifire = Card.getUniqueIdentifire()
     }
-    
-    //TODO: Shuffle the cards.
-    
+
     
 }
